@@ -306,6 +306,7 @@ function App() {
                         />
                       </td>
                       <td className="py-2 px-4 w-24">
+                        <div className="number-input">
                           <input
                             type="number"
                             min="1"
@@ -318,6 +319,7 @@ function App() {
                               setStockPanels(newPanels);
                             }}
                           />
+                        </div>
                       </td>
                       {settings.calculatePrice && (
                         <td className="py-2 px-4">
